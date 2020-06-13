@@ -1,0 +1,171 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 0px auto;
+    border-bottom: none;
+}
+
+.row-footer{
+    background-color: #2F3030;
+    margin:0px auto;
+    padding: 10px 10px 10px 10px;
+    color:#fff;
+}
+
+.jumbotron {
+    padding: 20px 10px 10px 10px;
+    margin:3px auto;
+    background: #360000   ;
+    color:floralwhite;
+    border-radius: 6px;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body{
+    padding:0px 0px 0px 0px;
+    margin: 5px;
+    z-index:0;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+}
+
+.navbar-inverse {
+     background: #4B4B4B;
+     color:floralwhite;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #646B6B;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+/**/
+.footer{
+    background-color: #fff;
+    margin:0px auto;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    color:floralwhite;
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.center-column-image{
+    padding-top: 65px;
+}
+
+.btn-linkedin{color:#fff;
+    background-color:#007bb6;
+    border-color:rgba(0,0,0,0.2);
+    position:relative;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border:none;
+    margin:1px;
+    margin-bottom:2px;
+}
+
+.btn-linkedin:hover,.btn-linkedin:focus,.btn-linkedin:active,.btn-linkedin.active,.open .dropdown-toggle.btn-linkedin{
+    color:#fff;
+    background-color:#005f8d;
+    border-color:rgba(0,0,0,0.2)
+}
+
+.btn-research {
+    position:relative;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding:0px;
+}
+
+.copyright-notice{
+    color:#A9A4A4;
+}
+
+/*
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}*/
+
+a.nice_link{
+    color: #781D08;
+}
+/* visited link */
+a.nice_link:visited {
+    color: #781D08;
+}
+/* mouse over link */
+a.nice_link:hover {
+    color: #FE957D;
+}
+/* selected link */
+a.nice_link:active {
+    color: pink;
+}
+
+.underlined_text {
+    border-bottom: 1px solid #ccc;
+}

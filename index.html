@@ -1,0 +1,824 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>David Sierra-Gonzalez</title>
+  
+  <meta name="author" content="David Sierra-Gonzalez">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- 	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+  <link rel="icon" href="images/icon_32.png">
+
+
+  <!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-105745520-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>David Sierra-Gonzalez</name>
+              </p>
+              <p>I'm a research scientist at <a href="https://www.inria.fr/en">Inria Grenoble Rhône-Alpes</a> (team <a href="https://team.inria.fr/chroma/en/">CHROMA</a>), France, where I work on computer vision and machine learning for autonomous driving applications.
+              </p>
+              <p>
+              I first joined Inria in 2015 to pursue a <a href="https://tel.archives-ouvertes.fr/tel-02184362">PhD in robotics</a> under the supervision of <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a> and <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>, with funding from <a href="https://www.toyota-europe.com/">Toyota Motor Europe</a>.
+              </p>
+              <p> Before Inria, I earned an MSc in Machine Learning from <a href="https://www.ucl.ac.uk/">University College London</a> and worked as a research engineer at the Institute of Robotics and Mechatronics of the <a href="https://www.dlr.de/rm/en/">German Aerospace Center (DLR)</a>.
+
+              <p style="text-align:center">
+                <a href="mailto:mail@davidsgonzalez.com">Email</a> &nbsp/&nbsp
+                <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
+                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=3UnYHtkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
+                <a href="https://github.com/d451gon/">Github</a> &nbsp/&nbsp
+                <a href="http://www.linkedin.com/in/d-sierra-gonzalez">LinkedIn</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/david_circle.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/david_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <heading>Research</heading>
+                <p>
+                  My general interests are computer vision, machine learning and robotics. More particularly, in the field of autonomous driving, I'm interested in environment perception (detection, tracking, segmentation), scene prediction, and motion planning. 
+                </p>
+              </td>
+            </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- CATEGORY -->
+          <tr> 
+            <td style="padding-left: 20px; padding-top: 20px;vertical-align:middle;font-weight:bold" colspan="100%">Papers on motion forecasting and motion planning
+            </td>
+          </tr>
+          <!-- END CATEGORY -->
+
+          <!-- PAPER ITSC 2022 -->
+          <tr onmouseout="itsc_2022_stop()" onmouseover="itsc_2022_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:20px;padding-bottom: 10px; width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='itsc_2022_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/itsc_2022.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/itsc_2022.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function itsc_2022_start() {
+                  document.getElementById('itsc_2022_image').style.opacity = "1";
+                }
+
+                function itsc_2022_stop() {
+                  document.getElementById('itsc_2022_image').style.opacity = "0";
+                }
+                itsc_2022_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://github.com/d451gon/MULTILANE">
+                <papertitle>MultiLane: Lane intention prediction and sensible lane-oriented trajectory forecasting on centerline graphs</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <!-- <em>ITSC</em>, 2022 -->
+              <em>To appear.</em>
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <!-- <a href="https://hal.archives-ouvertes.fr/hal-02188235">pdf</a>   -->
+<!--               <a href="https://www.youtube.com/watch?v=2Q1BPdyRGe8">video</a> -->
+              <a href="https://github.com/d451gon/MULTILANE">code</a> 
+              <p></p>
+              <p>A Graph Neural Network is used to predict the centerline that the target intends to follow. Based on that, we predict a distribution over potential endpoints, and multiple lane-oriented trajectory realizations.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ITSC 2022 -->
+
+          <!-- PAPER ITSC 2019 -->
+          <tr>
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/itsc_2019.png" id='itsc_2019_image' width="160">
+              </div>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-02188235">
+                <papertitle>Human-like decision-making for automated driving in highways</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Mario Garzon</a>, 
+              <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ITSC</em>, 2019
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-02188235">pdf</a>  
+<!--               <a href="https://www.youtube.com/watch?v=2Q1BPdyRGe8">video</a>
+ -->              <p></p>
+              <p>POMDP with Monte-Carlo simulations for lane change decision making. The environment predictions are done with our models from 2016-2017.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ITSC 2019 -->
+
+          <!-- PAPER ICRA 2018 -->
+          <tr onmouseout="icra_2018_stop()" onmouseover="icra_2018_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='icra_2018_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/icra_2018.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/icra_2018.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function icra_2018_start() {
+                  document.getElementById('icra_2018_image').style.opacity = "1";
+                }
+
+                function icra_2018_stop() {
+                  document.getElementById('icra_2018_image').style.opacity = "0";
+                }
+                icra_2018_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-01729960">
+                <papertitle>Modeling driver behavior from demonstrations in dynamic environments using spatiotemporal lattices</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>, 
+              <a href="https://scholar.google.com.au/citations?user=x3M1JlAAAAAJ&hl=en">Victor Romero-Cano</a>, 
+              <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ICRA</em>, 2018
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-01729960">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=2Q1BPdyRGe8">video</a>
+              <p></p>
+              <p>Inverse Reinforcement Learning to learn a driver behavioral model on a real setting.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ICRA 2018 -->
+
+          <!-- PAPER ITSC 2017 -->
+          <tr onmouseout="itsc_2017_stop()" onmouseover="itsc_2017_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='itsc_2017_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/itsc_2017.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/itsc_2017.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function itsc_2017_start() {
+                  document.getElementById('itsc_2017_image').style.opacity = "1";
+                }
+
+                function itsc_2017_stop() {
+                  document.getElementById('itsc_2017_image').style.opacity = "0";
+                }
+                itsc_2017_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://hal.inria.fr/hal-01589493">
+                <papertitle>Interaction-aware driver maneuver inference in highways using realistic driver models</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com.au/citations?user=x3M1JlAAAAAJ&hl=en">Victor Romero-Cano</a>, 
+              <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ITSC</em>, 2017
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.inria.fr/hal-01589493">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=vHEQssDVTZ4">video</a>
+              <p></p>
+              <p>A driver behavioral model learned with Inverse Reinforcement Learning is used as a prior to limit the false positives of
+              an autoregressive model in lane change scenarios.</p>
+            </td>
+          </tr>
+            <!-- END PAPER ITSC 2017 -->
+
+          <!-- PAPER ITSC 2016 -->
+          <tr onmouseout="itsc_2016_stop()" onmouseover="itsc_2016_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='itsc_2016_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/itsc_2016.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/itsc_2016.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function itsc_2016_start() {
+                  document.getElementById('itsc_2016_image').style.opacity = "1";
+                }
+
+                function itsc_2016_stop() {
+                  document.getElementById('itsc_2016_image').style.opacity = "0";
+                }
+                itsc_2016_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-01396047">
+                <papertitle>High-speed highway scene prediction based on driver models learned from demonstrations</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ITSC</em>, 2016
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-01396047">pdf</a> 
+              <p></p>
+              <p>A driver behavioral model learned with Inverse Reinforcement Learning in simulation is used to predict future road occupancy on a synthetic, simplified highway setting.</p>
+            </td>
+          </tr>
+            <!-- END PAPER ITSC 2016 -->
+
+          <!-- CATEGORY -->
+          <tr> 
+            <td style="padding-left:20px;padding-top: 80px;vertical-align:middle;font-weight:bold" colspan="100%">Papers on object detection
+            </td>
+          </tr>
+          <!-- END CATEGORY -->
+
+          <!-- PAPER ICCV 2021 -->
+          <tr onmouseout="iccv_2021_stop()" onmouseover="iccv_2021_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:20px;padding-bottom:0px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='iccv_2021_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/iccv_2021.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/iccv_2021.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function iccv_2021_start() {
+                  document.getElementById('iccv_2021_image').style.opacity = "1";
+                }
+
+                function iccv_2021_stop() {
+                  document.getElementById('iccv_2021_image').style.opacity = "0";
+                }
+                iccv_2021_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom:0px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-03354114/">
+                <papertitle>Frustrum-Pointpillars: A multi-stage approach for 3D object detection using RGB camera and LiDAR</papertitle>
+              </a>
+              <br>
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>, 
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ICCV</em>, Workshop on Autonomous Vehicle Vision, 2021
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-03354114/">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=mJyKwhOOqxU">video</a> /
+              <a href="https://github.com/anshulpaigwar/Frustum-Pointpillars">code</a>
+              <p></p>
+              <p>Search space reduction for the PointPillars detection architecture based on 2D detections. At the time of submission F-Pointpillars ranked among the top-5 approaches for BEV pedestrian detection on the KITTI dataset.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ICCV 2021 -->
+
+          <!-- PAPER ICARCV 2020 -->
+          <tr onmouseout="icarcv_2020_stop()" onmouseover="icarcv_2020_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 0px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='icarcv_2020_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/icarcv_2020.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/icarcv_2020.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function icarcv_2020_start() {
+                  document.getElementById('icarcv_2020_image').style.opacity = "1";
+                }
+
+                function icarcv_2020_stop() {
+                  document.getElementById('icarcv_2020_image').style.opacity = "0";
+                }
+                icarcv_2020_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 0px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-03044979">
+                <papertitle>Leveraging dynamic occupancy grids for 3D object detection in point clouds</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <a href="https://scholar.google.com/citations?user=iQ3v57QAAAAJ&hl=en">Jilles Dibangoye</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ICARCV</em>, 2020
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-03044979">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=hbQgpRuvuUo">video</a> /
+              <a href="https://github.com/d451gon/kitti_dogma_dataset">dataset</a>
+              <p></p>
+              <p>We process sequences of point clouds to obtain dynamic occupancy grids, and feed these to a 3D object detection architecture. By leveraging the grid's dynamic information, the bounding box localization and orientation metrics for small objects such as pedestrians in challenging scenarios are improved by 7% and 27%, respectively. </p>
+            </td>
+          </tr>
+          <!-- END PAPER ICARCV 2020 -->
+
+
+          <!-- CATEGORY -->
+          <tr> 
+            <td style="padding-left:20px;padding-top: 80px;vertical-align:middle;font-weight:bold" colspan="100%">Papers on semantic grids and environment perception
+            </td>
+          </tr>
+          <!-- END CATEGORY -->
+
+          <!-- PAPER ICARCV 2022 -->
+          <tr onmouseout="icarcv_2022_stop()" onmouseover="icarcv_2022_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:20px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='icarcv_2022_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/icarcv_2022.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/icarcv_2022.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function icarcv_2022_start() {
+                  document.getElementById('icarcv_2022_image').style.opacity = "1";
+                }
+
+                function icarcv_2022_stop() {
+                  document.getElementById('icarcv_2022_image').style.opacity = "0";
+                }
+                icarcv_2022_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>TransFuseGrid: Transformer-based Lidar-RGB fusion for semantic grid prediction</papertitle>
+              </a>
+              <br>
+              <a href="https://github.com/gsg213">Gustavo Salazar-Gomez</a>,
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <a href="https://scholar.google.com/citations?user=6yh4f4YAAAAJ&hl=en">Wenqian Liu</a>, 
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <a href="https://scholar.google.com/citations?user=hM_mm8MAAAAJ&hl=en">Manuel Diaz</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em> To appear.</em><!-- ICARCV</em>, 2022 -->
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+ <!--              <a href="https://hal.archives-ouvertes.fr/hal-02927350">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=kjZ-n_aIJAg">video</a> /
+              <a href="https://github.com/anshulpaigwar/GndNet">code</a> -->
+              <p></p>
+              <p>Architecture that fuses multi-camera and LiDAR data at different scales to produce bird's eye view semantic grids of the environment.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ICARCV 2022 -->
+
+          <!-- PAPER ICCVS 2021 -->
+          <tr onmouseout="iccvs_2021_stop()" onmouseover="iccvs_2021_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 0px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='iccvs_2021_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/iccvs_2021.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/iccvs_2021.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function iccvs_2021_start() {
+                  document.getElementById('iccvs_2021_image').style.opacity = "1";
+                }
+
+                function iccvs_2021_stop() {
+                  document.getElementById('iccvs_2021_image').style.opacity = "0";
+                }
+                iccvs_2021_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 0px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-03335282">
+                <papertitle>Gridtrack: Detection and tracking of multiple objects in dynamic occupancy grids.</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>ICCVS</em>, 2021
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-03335282">pdf</a>
+              <!-- <a href="https://www.youtube.com/watch?v=kjZ-n_aIJAg">video</a> / -->
+              <p></p>
+              <p>Multi-Object tracking architecture that leverages dynamic occupancy grids to improve the tracking of occluded targets. It outputs a bird's eye view instance segmentation of the scene.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ICCVS 2021 -->
+
+
+          <!-- PAPER IROS 2020 -->
+          <tr onmouseout="iros_2020_stop()" onmouseover="iros_2020_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:0px;padding-bottom: 0px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='iros_2020_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/iros_2020.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/iros_2020.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function iros_2020_start() {
+                  document.getElementById('iros_2020_image').style.opacity = "1";
+                }
+
+                function iros_2020_stop() {
+                  document.getElementById('iros_2020_image').style.opacity = "0";
+                }
+                iros_2020_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:0px;padding-bottom: 0px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-02927350">
+                <papertitle>GndNet: Ground plane estimation and point cloud segmentation for autonomous vehicles</papertitle>
+              </a>
+              <br>
+              <a href="https://anshulpaigwar.github.io/">Anshul Paigwar</a>, 
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>
+              <br>
+              <em>IROS</em>, 2020
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-02927350">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=kjZ-n_aIJAg">video</a> /
+              <a href="https://github.com/anshulpaigwar/GndNet">code</a>
+              <p></p>
+              <p>Application of a Pillar Feature Encoding module to ground height prediction and point cloud segmentation.</p>
+            </td>
+          </tr>
+          <!-- END PAPER IROS 2020 -->
+
+
+          <!-- PAPER IROS 2018 -->
+          <tr>
+            <td style="padding-left:20px;padding-right: 20px; padding-top:00px;padding-bottom: 00px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/iros_2018.png" id='iros_2018_image' width="160">
+              </div>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:00px;padding-bottom: 00px;width:75%;vertical-align:middle">
+              <a href="https://hal.archives-ouvertes.fr/hal-01881377">
+                <papertitle>Semantic grid estimation with a hybrid bayesian and deep neural network approach.</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=5QMAbisAAAAJ&hl=en">Ozgur Erkent</a>,
+              <a href="https://scholar.google.com/citations?user=idYS1AIAAAAJ&hl=en">Christian Wolf</a>,
+              <a href="https://scholar.google.com/citations?user=jtnM0c8AAAAJ&hl=en">Christian Laugier</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com.au/citations?user=x3M1JlAAAAAJ&hl=en">Victor Romero-Cano</a>
+              <br>
+              <em>IROS</em>, 2018
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://hal.archives-ouvertes.fr/hal-01881377">pdf</a>,   
+              <a href="https://www.youtube.com/watch?v=E-cj41ZP7hg">video</a>
+              <p></p>
+              <p>Architecture for semantic grid prediction through fusion of semantically segmented RGB images and Bayesian occupancy grids.</p>
+            </td>
+          </tr>
+          <!-- END PAPER IROS 2018 -->
+
+          <!-- CATEGORY -->
+          <tr> 
+            <td style="padding-left:20px;padding-top: 80px;vertical-align:middle;font-weight:bold" colspan="100%">Papers on human-machine interfaces
+            </td>
+          </tr>
+          <!-- END CATEGORY -->
+
+          <!-- PAPER FRONTIERS 2014 -->
+          <tr onmouseout="frontiers_2014_stop()" onmouseover="frontiers_2014_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:20px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='frontiers_2014_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/frontiers_2014.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/frontiers_2014.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function frontiers_2014_start() {
+                  document.getElementById('frontiers_2014_image').style.opacity = "1";
+                }
+
+                function frontiers_2014_stop() {
+                  document.getElementById('frontiers_2014_image').style.opacity = "0";
+                }
+                frontiers_2014_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935121/">
+                <papertitle>Stable myoelectric control of a hand prosthesis using non-linear incremental learning</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=Ir0UwGkAAAAJ&hl=en">Arjan Gijsberts</a>, 
+              Rashida Bohra, 
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.de/citations?user=yAVkbkAAAAAJ&hl=en">Alexander Werner</a>, 
+              <a href="https://scholar.google.de/citations?user=pnFXM6oAAAAJ&hl=de">Markus Nowak</a>, 
+              <a href="https://scholar.google.com/citations?user=mHbdIAwAAAAJ&hl=en">Barbara Caputo</a>, 
+              <a href="https://scholar.google.de/citations?user=ZSRwsn6tjckC&hl=en">Maximo Roa</a>, 
+              <a href="https://scholar.google.com/citations?user=barrdn0AAAAJ&hl=en">Claudio Castellini</a>
+              <br>
+              <em>Frontiers in Neurorobotics, 8(8)</em>, 2014
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3935121/">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=JvsZZOj8_MQ">video</a>
+              <p></p>
+              <p>Incremental Ridge Regression and an approximation of the Gaussian Kernel known as Random Fourier Features are combined to predict finger forces from myoelectric signals, both finger-by-finger and grouped in grasping patterns.</p>
+            </td>
+          </tr>
+          <!-- END PAPER FRONTIERS 2014 -->
+
+
+          <!-- PAPER BIOROB 2014 -->
+          <tr>
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 00px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/biorob_2014.png" id='biorob_2014_image' width="160">
+              </div>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 0px;width:75%;vertical-align:middle">
+              <a href="https://elib.dlr.de/91361/">
+                <papertitle>A virtual piano-playing environment for rehabilitation based upon ultrasound imaging</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=barrdn0AAAAJ&hl=en">Claudio Castellini</a>,
+              <a href="https://scholar.google.com/citations?user=jxrGZ7kAAAAJ&hl=en">Katarina Hertkorn</a>,
+              <a href="https://scholar.google.de/citations?user=DAP30jYAAAAJ&hl=en">Mikel Sagardia</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.de/citations?user=pnFXM6oAAAAJ&hl=de">Markus Nowak</a> 
+              <br>
+              <em>BioRob</em>, 2014
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://elib.dlr.de/91361/">pdf</a> 
+              <p></p>
+              <p>Our ultrasound human-machine interface from 2013 is evaluated in a user study with 10 participants; the subjects are asked to play different sequences of keys in a piano.</p>
+            </td>
+          </tr>
+          <!-- END PAPER BIOROB 2014 -->
+
+
+          <!-- PAPER ICRA 2014 -->
+          <tr onmouseout="icra_2014_stop()" onmouseover="icra_2014_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='icra_2014_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/icra_2014.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/icra_2014.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function icra_2014_start() {
+                  document.getElementById('icra_2014_image').style.opacity = "1";
+                }
+
+                function icra_2014_stop() {
+                  document.getElementById('icra_2014_image').style.opacity = "0";
+                }
+                icra_2014_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://elib.dlr.de/91355/">
+                <papertitle>Ultrapiano: A novel human-machine interface applied to virtual reality</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.de/citations?user=DAP30jYAAAAJ&hl=en">Mikel Sagardia</a>,
+              <a href="https://scholar.google.com/citations?user=jxrGZ7kAAAAJ&hl=en">Katarina Hertkorn</a>,
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=barrdn0AAAAJ&hl=en">Claudio Castellini</a>
+              <br>
+              <em>ICRA</em>, 2014
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://elib.dlr.de/91355/">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=MuCPySZrbD0">video</a>
+              <p></p>
+              <p>Application of our ultrasound human-machine interface to remotely control a virtual piano playing environment in real-time.</p>
+            </td>
+          </tr>
+          <!-- END PAPER ICRA 2014 -->
+
+          <!-- PAPER FRONTIERS 2013 -->
+          <tr onmouseout="frontiers_2013_stop()" onmouseover="frontiers_2013_start()">
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='frontiers_2013_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/frontiers_2013.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/frontiers_2013.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function frontiers_2013_start() {
+                  document.getElementById('frontiers_2013_image').style.opacity = "1";
+                }
+
+                function frontiers_2013_stop() {
+                  document.getElementById('frontiers_2013_image').style.opacity = "0";
+                }
+                frontiers_2013_stop()
+              </script>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3804922/">
+                <papertitle>A realistic implementation of ultrasound imaging as a human-machine interface for upper-limb amputees</papertitle>
+              </a>
+              <br>
+              <strong>David Sierra-Gonzalez</strong>,
+              <a href="https://scholar.google.com/citations?user=barrdn0AAAAJ&hl=en">Claudio Castellini</a>
+              <br>
+              <em>Frontiers in Neurorobotics, 7(17)</em>, 2013
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3804922/">pdf</a> / 
+              <a href="https://www.youtube.com/watch?v=HJ2lS9F3n5Q">video</a>
+              <p></p>
+              <p>Incremental Ridge Regression is used to enable on-the-fly retraining of the ultrasound-driven interface. A quick data collection of zero and maximum fingertip forces suffices to train a system that predicts intermediate force values spanning a range of 20N per finger.</p>
+            </td>
+          </tr>
+          <!-- END PAPER FRONTIERS 2013 -->
+
+
+          <!-- PAPER IROS 2013 -->
+          <tr>
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images/iros_2013.png" id='iros_2013_image' width="160">
+              </div>
+            </td>
+
+            <td style="padding-left:20px;padding-right: 20px; padding-top:10px;padding-bottom: 10px;width:75%;vertical-align:middle">
+              <a href="https://elib.dlr.de/87279/">
+                <papertitle>Ultrasound imaging as a human-machine interface in a realistic scenario</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=barrdn0AAAAJ&hl=en">Claudio Castellini</a>,
+              <strong>David Sierra-Gonzalez</strong>
+              <br>
+              <em>IROS</em>, 2013
+              <br>
+              <!-- <a href="http://yenchenlin.me/nerf-supervision/">project page</a> /  -->
+              <!-- <a href="https://arxiv.org/abs/2203.01913">arXiv</a> /  -->
+              <!-- <a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> / -->
+              <!-- <a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> /  -->
+              <!-- <a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>  -->
+              <a href="https://elib.dlr.de/87279/">pdf</a>
+              <p></p>
+              <p>Ridge Regression is used to map a live feed of ultrasound images of the forearm to fingertip forces.</p>
+            </td>
+          </tr>
+          <!-- END PAPER IROS 2013 -->
+
+
+        </tbody></table>
+      </td>
+    </tr>
+  <tr align = right>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <p style="font-size:14px"> This website uses a <a href="https://github.com/jonbarron/website">template</a> created by Jon Barron.
+    </td>
+  </tr>
+  </tbody></table>
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+This is the source code to David's public academic website: https://davidsgonzalez.com. This is a modified version of the code released by Jon Barron here: https://github.com/jonbarron/website
